@@ -1,0 +1,9 @@
+<script>
+    var total =  '{{ checkout.total_price }}';
+    var new_total = total.slice(0,-2);
+    var payment_link = '<a href=' + "tel:*182*8*1*430056*" + new_total + '#>Your payment status is pending. Click here to complete your payment.</a>';
+    
+    {% if order.financial_status == "pending" %}
+      document.write(payment_link);
+    {% endif %}
+  </script>
