@@ -1,2 +1,2 @@
 # MoMoPay-Script
-This is a simple script which can be used to accept MoMoPay payments on Shopify
+This is script was built to make the process of accepting MoMoPay payments easier on Shopify
